@@ -28,8 +28,10 @@ This edition stores the entire library in the owner's Google Drive:
 | --- | --- |
 | `npm run dev` | Start the local development server |
 | `npm run drive:authorize` | Obtain the one-time Google refresh token |
-| `npm run build` | Build the production worker |
-| `npm run start` | Start the already-built application |
+| `npm run build` | Build the standard Next.js application (including Vercel) |
+| `npm run start` | Start the standard Next.js production server |
+| `npm run build:worker` | Build the Cloudflare/Vinext worker |
+| `npm run start:worker` | Start the already-built Cloudflare/Vinext worker |
 | `npm run lint` | Check the source with ESLint |
 | `npx tsc --noEmit` | Type-check the source |
 
